@@ -3,7 +3,7 @@ A deterministic evaluation framework for Large Language Models. Stop guessing if
 
 
 ## 🌐 Live Demo
-[Try it here](https://prompt-diff-tool-vbp9bpgywmxutagtj4cmxl.streamlit.app/)
+https://prompt-diff-tool-vbp9bpgywmxutagtj4cmxl.streamlit.app/
 
 ## 🎯 The Problem
 In enterprise AI development, prompt engineering often relies on "vibes" or single-shot testing. An engineer tweaks a prompt, runs it once, and assumes it works. In production, this leads to edge-case hallucinations, unpredictable formatting, and massive semantic drift. Engineers need a way to mathematically prove that adding a constraint (e.g., "be concise," "output JSON") actually controls the LLM's behavior across multiple independent runs.
