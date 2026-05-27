@@ -1,6 +1,10 @@
 # Prompt Diff Engine ⚡
 A deterministic evaluation framework for Large Language Models. Stop guessing if your prompt engineering works—prove it with math.
 
+
+## 🌐 Live Demo
+[Try it here](https://prompt-diff-tool-vbp9bpgywmxutagtj4cmxl.streamlit.app/)
+
 ## 🎯 The Problem
 In enterprise AI development, prompt engineering often relies on "vibes" or single-shot testing. An engineer tweaks a prompt, runs it once, and assumes it works. In production, this leads to edge-case hallucinations, unpredictable formatting, and massive semantic drift. Engineers need a way to mathematically prove that adding a constraint (e.g., "be concise," "output JSON") actually controls the LLM's behavior across multiple independent runs.
 
@@ -85,3 +89,6 @@ NVIDIA_API_KEY="nvapi-your-key-here"
 ```bash
 streamlit run app.py
 ```
+
+## Conclusion
+The Prompt Diff Engine transitions prompt engineering from intuitive guesswork into a rigorous, quantitative discipline. By integrating high-dimensional vector embeddings with automated statistical testing, this framework provides the definitive proof required for enterprise-grade LLM deployment. It empowers AI engineers to mathematically validate structural constraints, isolate silent semantic drift, and ensure deterministic model behavior in production environments. Ultimately, it replaces the fragility of single-shot testing with the reliability of data science.
